@@ -1,7 +1,7 @@
 var scanf = require(`scanf`);
 
 var ListaString = [];
-var cancelar = true;
+var cancelar;
 
 do {
     console.log(`Ingrese cadenas de texto, digite *CANCELAR* si desea salir`)
