@@ -7,8 +7,6 @@ do {
     console.log(`Ingrese cadenas de texto, digite *CANCELAR* si desea salir`)
     let Stringlist = scanf(`%s`);
     cancelar = Stringlist;
-    let SaveString = {};
-    SaveString['strings'] = Stringlist;
     ListaString.push(SaveString);
 } while (cancelar != "cancelar");
 
